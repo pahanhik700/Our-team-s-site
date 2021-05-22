@@ -162,6 +162,15 @@ header.fixed #logo {
 	#main {
 		font-size: 0.9em;
 	}
+	#main_aleksandr {
+		font-size: 0.9em;
+	}
+	#main_vladimir {
+		font-size: 0.9em;
+	}
+	#soc_seti {
+		margin-left: 5%;
+	}
 }
 @media (max-width: 700px) {
 	#top1 {
@@ -341,7 +350,7 @@ header.fixed #logo {
 
 .soc_seti {
 	display: flex;
-	margin-left: 300px;
+	margin-left: 20%;
 	margin-top: 12px;
 	font-style: oblique;
 	border-style: dashed;
