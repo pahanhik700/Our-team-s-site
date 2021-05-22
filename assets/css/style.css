@@ -116,6 +116,22 @@ header.fixed #logo {
   font-size: 1.3em;
 }
 
+#main_aleksandr {
+	width: 100%;
+	opacity: 0;
+  border-top: 2px solid silver;
+  color: #343434;
+  font-size: 1.3em;
+}
+
+#main_vladimir {
+	width: 100%;
+	opacity: 0;
+  border-top: 2px solid silver;
+  color: #343434;
+  font-size: 1.3em;
+}
+
 
 @media (min-width: 1001px) {
   #top {
