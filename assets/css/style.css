@@ -186,13 +186,12 @@ header.fixed #logo {
 	text-align: center;
 	margin-top: 5%;
 }
-#main img {
+.main_pavel_img {
 	margin: 20px 19.5%;
   border: 2px solid silver;
   width: 60%;
 }
 #main p {
-	margin: 0 20px;
 	font-size: 1em;
 	margin: 10px 20px;
 }
@@ -201,13 +200,12 @@ header.fixed #logo {
 	text-align: center;
 	margin-top: 5%;
 }
-#main_vladimir img {
+.main_vladimir_img {
 	margin: 20px 19.5%;
 	border: 2px solid silver;
 	width: 60%;
 }
 #main_vladimir p {
-	margin: 0 20px;
 	font-size: 1em;
 	margin: 10px 20px;
 }
@@ -216,13 +214,12 @@ header.fixed #logo {
 	text-align: center;
 	margin-top: 5%;
 }
-#main_aleksandr img {
+.main_aleksandr_img {
 	margin: 20px 19.5%;
 	border: 2px solid silver;
 	width: 60%;
 }
 #main_aleksandr p {
-	margin: 0 20px;
 	font-size: 1em;
 	margin: 10px 20px;
 }
@@ -296,7 +293,7 @@ header.fixed #logo {
 #overwiew h2 {font-size: 3em}
 #overwiew span {color: #a0a0a0}
 
-#contacts {
+#date {
 	width: 100%;
 	margin: auto;
   background-color: #ebebeb;
@@ -340,4 +337,27 @@ header.fixed #logo {
   width: 100%;
   font-size: 2em;
   margin-top: 10px;
+}
+
+.soc_seti {
+	display: flex;
+	margin-left: 300px;
+	margin-top: 12px;
+	font-style: oblique;
+	border-style: dashed;
+	list-style-type: none;
+	max-height: 25px;
+		max-width: 160px;
+
+
+}
+
+.soc_seti li a {
+	padding-bottom: 55px;
+	list-style-type: none;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: fuchsia;float:left;
+	font-size: 18px;
+
 }
